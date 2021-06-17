@@ -1,0 +1,7 @@
+measurement pattern;aggregate;metricname;metricunit;lastvalue or measurementstat;statistic title;statistic ranges;statistic default state;showaslabel;metricscale add;metricscale multiply;time multiplier;time type;offset multiplier;offset type;time average;node or link;pattern for node name;source or destination;domain
+;TREND;CPU;Hz;measurementstat;CPU;-Infinity/-1e3/0,-1e3/1e3/-1,1e3/Infinity/4000;0;true;0;1;3;Lastmonths;;;60000;n;;;measurement
+;TREND;Guest Memory;MB;measurementstat;RAM;-Infinity/-1e3/0,-1e3/1e3/-1,1e3/Infinity/4000;0;true;0;1;3;Lastmonths;;;60000;n;;;measurement
+Host;TREND;Memory;%;measurementstat;RAM;-Infinity/-1e1/0,-1e1/1e1/-1,1e1/Infinity/4000;0;true;0;1;3;Lastmonths;;;60000;n;;;measurement
+Datastore;TREND;Free;%;measurementstat;Free Space;-Infinity/-1e1/4000,-1e1/1e1/-1,1e1/Infinity/0;0;true;0;1;3;Lastmonths;;;60000;n;;;measurement
+Processor Total;TREND;total;%;measurementstat;CPU Total;-Infinity/-1e1/0,-1e1/1e1/-1,1e1/Infinity/4000;0;true;0;1;3;Lastmonths;;;60000;n;;;d
+Ping measurement;TREND;Availability;%;measurementstat;Availability;-Infinity/-1/4000,-1/1/-1,1/Infinity/0;0;true;0;1;3;Lastmonths;;;60000;n;;;d
