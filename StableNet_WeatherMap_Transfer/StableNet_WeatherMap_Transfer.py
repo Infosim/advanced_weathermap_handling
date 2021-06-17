@@ -6,10 +6,10 @@
 # # StableNet<sup>®</sup> Weather Map Transfer 
 # 
 # ## Introduction
-# The only non-trivial part for transferring a Weather Map from one StableNet server to a another one via REST API (and thus, the only reason for the existence of this script) is handling the references to objects in StableNet.  For each "relevant" tag domain this script allows to define a non-empty and finite list of python regular expressions characterizing tag domains.  If there are two objects from the respective domain (one on each server) whose tag values are equal on all these tag categories, then this script assumes these objects as equal and replaces the references to the first objects with references to the second object.
+# The only non-trivial part for transferring a Weather Map from one StableNet server to another one via REST API (and thus, the only reason for the existence of this script) is handling the references to objects in StableNet.  For each "relevant" tag domain this script allows to define a non-empty and finite list of python regular expressions characterizing tag domains.  If there are two objects from the respective domain (one on each server) whose tag values are equal on all these tag categories, then this script assumes these objects as equal and replaces the references to the first objects with references to the second object.
 # 
 # The following inputs need to be specified:
-# * IP-address, port, username, and password for the two StableNet servers (in "Provide server credentials)
+# * IP-address, port, username, and password for the two StableNet servers (in "Provide server credentials")
 # * Id of the Weather Map that shall be transferred (in "Define input parameters for script")
 # * Regular Expressions for relevant tag categories per domain (already preselected, in "Define input parameters for script")
 
