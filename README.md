@@ -2,8 +2,9 @@
 
 ## Overview 
 This repository contains two python scripts for advanced Weather Map management in StableNet® that are presented in
-[this webinar](https://www.youtube.com/watch?v=Fks-zHKjROc) on YouTube.  The scripts were originally written as Jupyter 
-notebooks, but we also provide pure python files, which have been generated automatically from the Jupyter notebooks.
+[this webinar](https://www.youtube.com/watch?v=Fks-zHKjROc) on YouTube.  The scripts rely on the StableNet® REST API.
+They were originally written as Jupyter notebooks, but we also provide pure python files, which have been generated
+automatically from the Jupyter notebooks.
 
 ## Weather Map Transfer
 The only non-trivial part for transferring a Weather Map from one StableNet server to another one via REST API (and thus, 
