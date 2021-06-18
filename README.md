@@ -26,3 +26,6 @@ CSV file](StableNet_WeatherMap_Statistics/input_node_trend.csv) as input.
 ![Original Weather Map](datacenter.png)
 
 ![Weather Map with added Statistics](datacenter_statistics.png)
+
+## Automatic Addition of Alarms to Weather Map Nodes
+This script is a simpler "CSV-Free" version of the Statistics Addition Script that is adding Open Alarms to Weathermap Nodes.
