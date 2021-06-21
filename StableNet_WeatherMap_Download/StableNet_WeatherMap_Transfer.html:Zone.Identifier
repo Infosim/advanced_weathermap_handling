@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=http://10.20.20.21:10003/lab?
+HostUrl=http://10.20.20.21:10003/nbconvert/html/J2H/StableNet_WeatherMap_Transfer.ipynb?download=true
