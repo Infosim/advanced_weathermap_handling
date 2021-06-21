@@ -1,7 +1,7 @@
 # Advanced Weather Map Handling in StableNet®
 
 ## Overview 
-This repository contains two python scripts for advanced Weather Map management in StableNet® that are presented in
+This repository contains several python scripts for advanced Weather Map management in StableNet® that are presented in
 [this webinar](https://www.youtube.com/watch?v=Fks-zHKjROc) on YouTube.  The scripts rely on the StableNet® REST API.
 They were originally written as Jupyter notebooks, but we also provide pure python files, which have been generated
 automatically from the Jupyter notebooks.
