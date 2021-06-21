@@ -5,11 +5,13 @@ This repository contains several python scripts for advanced Weather Map managem
 [this webinar](https://www.youtube.com/watch?v=Fks-zHKjROc) on YouTube.  The scripts rely on the StableNet® REST API.
 They were originally written as Jupyter notebooks, but we also provide pure python files, which have been generated
 automatically from the Jupyter notebooks.
-  * The transfer script transfers Weather Maps from one StableNet® server to another and replaces references
+  * The **transfer script** transfers Weather Maps from one StableNet® server to another and replaces references
 to objects on the source server with the corresponding references on the target server.
-  * The statistics script automatically adds statistics to nodes and links of a given Weather Map as specified in an
+  * The **download script** fetches Weather Maps from one StableNet® server and downloads them onto the hard drive of the 
+system executing the script. 
+  * The **statistics script** automatically adds statistics to nodes and links of a given Weather Map as specified in an
 input CSV file.
-  * The alarms script automatically adds open alarms to Weather Map nodes.
+  * The **alarms script** automatically adds open alarms to Weather Map nodes.
 
 ## Transfer
 The only non-trivial part for transferring a Weather Map from one StableNet server to another one via REST API (and thus, 
@@ -18,6 +20,10 @@ tag domain this script allows to define a non-empty and finite list of python re
 If there are two objects from the respective domain (one on each server) whose tag values are equal on all these tag categories, 
 then this script assumes these objects as equal and replaces the references to the first objects with references to the 
 second object.
+
+## Download
+This script fetches all available Weather Maps from a specified StableNet server via REST API. Afterwards they are saved to the 
+local file system. The user is able to specify the destination directory during script execution.
 
 ## Statistics
 This script automatically adds statistics to Weather Map nodes and links when given certain parameters as input over a CSV file. 
