@@ -21,9 +21,11 @@ If there are two objects from the respective domain (one on each server) whose t
 then this script assumes these objects as equal and replaces the references to the first objects with references to the 
 second object.
 
-## Download
-This script fetches all available Weather Maps from a specified StableNet server via REST API. Afterwards they are saved to the 
-local file system. The user is able to specify the destination directory during script execution.
+## Download (for backing up Weather Maps to the file system)
+This script fetches Weather Maps from a specified StableNet server via REST API. Afterwards they are saved to the local file system. The user is able to specify the desired Weather Maps and the destination directory during script execution.
+
+## Upload (for restoring Weather Maps from the file system)
+This script uploads Weather Maps to a specified StableNet server via REST API. The maps are taken from the local file system. The user is able to specify the desired Weather Maps and the source directory during script execution.
 
 ## Statistics
 This script automatically adds statistics to Weather Map nodes and links when given certain parameters as input over a CSV file. 
