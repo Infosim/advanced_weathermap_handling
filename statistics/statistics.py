@@ -276,7 +276,7 @@ def relevance_check():
 server_ip = '10.20.20.113'
 server_port = '5443'
 username = 'infosim'
-pw=getpass.getpass('Enter password for user ' + username + ' on server A:')
+pw=getpass.getpass('Enter password for user ' + username + ' on server:')
 
 
 # #### Check server credentials and get List of Weather Maps from Server
